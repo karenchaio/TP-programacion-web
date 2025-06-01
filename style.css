@@ -1,0 +1,115 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f9ebf2;
+  color: #3c363b;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f58f9a;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#inicio {
+  background-color: #f3e2e8;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#inicio h1 {
+  font-size: 2rem;
+  color: #f58f9a;
+  margin-bottom: 10px;
+}
+
+#inicio p {
+  font-size: 1.1rem;
+  color: #3c363b;
+}
+
+#servicios {
+  background-color: #ffffff;
+  padding: 60px 20px;
+}
+
+#servicios h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #f58f9a;
+  margin-bottom: 40px;
+}
+
+.servicio {
+  background-color: #f9ebf2;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.servicio img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.servicio h3 {
+  color: #3c363b;
+  margin-bottom: 10px;
+}
+
+.servicio p {
+  font-size: 1rem;
+  color: #3c363b;
+}
+
