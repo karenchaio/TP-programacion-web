@@ -559,14 +559,25 @@ footer {
 
 @media (max-width: 768px) {
   header {
+    position: static;
     flex-direction: column;
     align-items: flex-start;
+    padding: 5px 10px; 
+  }
+
+  header h1 {
+    font-size: 1.2rem; 
+  }
+
+  .logo {
+    width: 50px; 
+    height: 50px;
   }
 
   nav ul {
     flex-direction: column;
     gap: 10px;
-    padding-top: 10px;
+    padding-top: 5px;
   }
 
   .servicios-contenedor,
